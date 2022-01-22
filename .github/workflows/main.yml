@@ -19,6 +19,6 @@ jobs:
         context: ./src
         file: ./src/Dockerfile
         push: true
-        tags: 
+        tags: |
           vladedocker/rotten-potatoes:latest
           vladedocker/rotten-potatoes:${{ github.run_number }}
